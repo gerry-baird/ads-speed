@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="gerry.baird_uk.ibm.com.gb_test.speed:speedCalc" ruleAppVersion="LATEST-SNAPSHOT" packageName="gerry.baird_uk.ibm.com.gb_test.speed.speedcalc" managingXom="true">
-  <name>Speed-Calc</name>
-  <uuid>f848b8ce-6311-4d37-9e67-c21e6205c4af</uuid>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="gerry.baird_uk.ibm.com.gb_test.speed:model" ruleAppVersion="LATEST-SNAPSHOT" packageName="gerry.baird_uk.ibm.com.gb_test.speed.model" managingXom="true">
+  <name>Model</name>
+  <uuid>d10a11f8-07d7-4e1f-88a8-475ce5cb8da4</uuid>
   <locales>en_US</locales>
-  <operations operationName="operation">
-    <operation href="operation.dop#75c29a38-9f8c-495f-a5f7-b0ba87b7109e"/>
-    <properties key="ruleset.version">
-      <value><![CDATA[1.0]]></value>
-    </properties>
-  </operations>
   <versionPolicies label="Increment minor version numbers" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
     <description><![CDATA[Updates the minor version for each ruleset. Makes the new version available but retains previous versions.]]></description>
   </versionPolicies>

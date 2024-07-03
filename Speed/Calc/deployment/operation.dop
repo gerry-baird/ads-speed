@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Calc">
+  <name>Calc</name>
+  <uuid>bd44619d-9d8b-418a-925b-84ba16ab7f8a</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#4595fdbc-f29d-44db-b71d-5537a8205245"/>
+  <targetRuleProject href="../../Calc#14a5eb2e-d61c-4065-92c2-3f4abc9f855b"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Calc"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

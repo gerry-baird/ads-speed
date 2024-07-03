@@ -64,7 +64,8 @@
     </dependencyManagement>
     <modules>
         <module>.decisionservice</module>
-        <module>Speed Calc</module>
+        <module>Model</module>
+        <module>Calc</module>
     </modules>
 
     <build>

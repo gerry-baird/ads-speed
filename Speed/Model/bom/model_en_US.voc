@@ -1,0 +1,8 @@
+
+# gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc
+gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc#concept.label = SpeedCalc
+gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc.SpeedCalc(long)#phrase.navigation = a new {SpeedCalc} where {0, mph}
+gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc.mph#phrase.action = set the mph of {this} to {mph}
+gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc.mph#phrase.addition_setter = add {mph} to the mph of {this}
+gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc.mph#phrase.navigation = {mph} of {this}
+gerry.baird_uk.ibm.com.gb_test.speed.model.SpeedCalc.mph#phrase.subtraction_setter = subtract {mph} from the mph of {this}

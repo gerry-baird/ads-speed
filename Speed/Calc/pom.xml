@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>gerry.baird_uk.ibm.com.gb_test.speed</groupId>
-    <artifactId>speedCalc</artifactId>
+    <artifactId>calc</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,16 +26,21 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Speed-Calc</name>
+                            <name>Calc</name>
                         </deployment>
                     </deployments>
-                <packageName>gerry.baird_uk.ibm.com.gb_test.speed.speedcalc</packageName>
+                <packageName>gerry.baird_uk.ibm.com.gb_test.speed.calc</packageName>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
 <dependencies>
+        <dependency>
+            <groupId>gerry.baird_uk.ibm.com.gb_test.speed</groupId>
+            <artifactId>model</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>

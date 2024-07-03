@@ -1,0 +1,22 @@
+
+package gerry.baird_uk.ibm.com.gb_test.speed.model;
+
+
+class SpeedCalc
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "SpeedCalc"
+        #de.generated
+{
+    long mph
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "mph"
+                #update;
+    SpeedCalc(long mph)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    SpeedCalc()
+                #dataio.default;
+}
+
