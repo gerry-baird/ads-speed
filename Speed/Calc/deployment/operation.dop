@@ -8,7 +8,7 @@
     <value><![CDATA[""]]></value>
   </tags>
   <tags key="operationName">
-    <value><![CDATA["Calc"]]></value>
+    <value><![CDATA["calc"]]></value>
   </tags>
   <tags key="exposedAtRuntime">
     <value><![CDATA[true]]></value>
